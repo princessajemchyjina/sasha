@@ -48,6 +48,7 @@ h1{
 	background-color: #D5AE00;
 	color: #000;
 	pointer-events: none;
+	border-radius: 100em;
 }
 .menu li a {
 	font-family: Arial;
@@ -226,6 +227,7 @@ h2 {
 	float:left;
 	height: 50%;
 	width: 50%;
+	border-radius: 0 60px 60px 0;
 }
 @media screen and (max-width: 767px) {
   .obez{
