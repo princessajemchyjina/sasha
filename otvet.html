@@ -12,7 +12,7 @@
             <nav class="header">
 			    <input class="nav-burger__checkbox" type="checkbox" id="burger" />
   				<label class="nav-burger" for="burger"></label>
-                <ul class="menu">
+				<ul class="menu">
                     <li><a href="glavnaya.html">Glavnaya</a></li>
                     <li><a href="vajno.html">Vajno</a></li>
                     <li><a href="galereya.html">Galereya</a></li>
@@ -22,33 +22,18 @@
         </div>
     </header>
     <section>
-        <div class="contact">
-            <h3>Contact Form</h3>
-            <form id="contact-form" enctype="multipart/form-data" method="post" >
-                <fieldset>
-                    <label>
-                        <span class="name-input">Name:</span>
-                        <input name="name" value="" onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''" />
-                    </label>
-                    <label>
-                        <span class="name-input">Email:</span>  
-                        <input name="name1" value="" onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''" />
-                    </label>
-                    <label>
-                        <span class="name-input">Message:</span>
-                        <textarea onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''"></textarea>
-                    </label>                        
-                </fieldset>
-                <div class="link-form">
-                    <a class="link link-margin" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
-                    <a class="link" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
-                </div> 
-                <div class="clear"></div>       
+            <form class="decor">
+                <div class="circle"></div>
+                <div class="form-inner">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message..." rows="1"></textarea>
+                    <input type="submit" value="Accept">
+                </div>
             </form> 
-        </div>
     </section>
     <footer>
-				لا شيء واقع مطلق بل كل ممكن (c)
+		لا شيء واقع مطلق بل كل ممكن (c)
     </footer>
 </body>
 </html>
